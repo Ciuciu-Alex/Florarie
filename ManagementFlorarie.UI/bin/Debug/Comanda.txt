@@ -1,0 +1,6 @@
+Nume comanda: Buchet
+Nume Angajat: Ciuciu Alex Daniel
+Nume Floare: Trandafir
+Observatii: Mare
+Status: Anulata
+Pret total: 100

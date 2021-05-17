@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A53E6578-87F1-43B7-80B6-1F6857649F50}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ManagementFlorarie.UI</RootNamespace>
+    <AssemblyName>ManagementFlorarie.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FiltreazaComenzi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FiltreazaComenzi.Designer.cs">
+      <DependentUpon>FiltreazaComenzi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestioneazaAngajati.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestioneazaAngajati.Designer.cs">
+      <DependentUpon>GestioneazaAngajati.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestioneazaComenzi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestioneazaComenzi.Designer.cs">
+      <DependentUpon>GestioneazaComenzi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestioneazaFlori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestioneazaFlori.Designer.cs">
+      <DependentUpon>GestioneazaFlori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminMainForm.Designer.cs">
+      <DependentUpon>AdminMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificaAngajat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificaAngajat.Designer.cs">
+      <DependentUpon>ModificaAngajat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificaComanda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificaComanda.Designer.cs">
+      <DependentUpon>ModificaComanda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificaFloare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificaFloare.Designer.cs">
+      <DependentUpon>ModificaFloare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UserMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserMainForm.Designer.cs">
+      <DependentUpon>UserMainForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FiltreazaComenzi.resx">
+      <DependentUpon>FiltreazaComenzi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestioneazaAngajati.resx">
+      <DependentUpon>GestioneazaAngajati.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestioneazaComenzi.resx">
+      <DependentUpon>GestioneazaComenzi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestioneazaFlori.resx">
+      <DependentUpon>GestioneazaFlori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminMainForm.resx">
+      <DependentUpon>AdminMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificaAngajat.resx">
+      <DependentUpon>ModificaAngajat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificaComanda.resx">
+      <DependentUpon>ModificaComanda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificaFloare.resx">
+      <DependentUpon>ModificaFloare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserMainForm.resx">
+      <DependentUpon>UserMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ManagementFlorarie.BusinessLogic\ManagementFlorarie.BusinessLogic.csproj">
+      <Project>{090F93D0-B37B-4635-A327-A1E1895387F1}</Project>
+      <Name>ManagementFlorarie.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManagementFlorarie.Models\ManagementFlorarie.Models.csproj">
+      <Project>{A32989E8-2F25-4D7B-A72C-51EA00976262}</Project>
+      <Name>ManagementFlorarie.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ComandaMea.txt" />
+    <Content Include="Resourses\0cc796b6aec2ca09d879d450d8f45323.jpg" />
+    <Content Include="Resourses\3fcad80e7ecbd3492ea3caedb8dd0dbe.jpg" />
+    <Content Include="Resourses\9e3853a2eb0de74ac557c651e55c22a2.jpg" />
+    <Content Include="Resourses\aa48ea4745ab77aae4283c6e1f046f8d.jpg" />
+    <Content Include="Resourses\e63f7eb4c19fcc55dd6f36aaa25b6d04.jpg" />
+    <Content Include="Resourses\Feature-image-1080x675.jpg" />
+    <Content Include="Resourses\flo1.jpg" />
+    <Content Include="Resourses\Flower shop banner DealerInspire FullThrottle.jpg" />
+    <Content Include="Resourses\istockphoto-690258636-1024x1024.jpg" />
+    <Content Include="Resourses\Machine-Engineered-Food-Drink-01.jpg" />
+    <Content Include="Resourses\PerfectPetal_Boutique2020_0011.jpg" />
+    <Content Include="Resourses\Vch3lvIQJKh6xWXr6KPg_Welcome_back_.png" />
+    <Content Include="Resourses\YourBill.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

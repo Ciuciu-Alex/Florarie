@@ -1,0 +1,17 @@
+C:\Users\Lenovo\source\repos\Tennis\ManagementTenis.Models\bin\Debug\ManagementTenis.Models.dll
+C:\Users\Lenovo\source\repos\Tennis\ManagementTenis.Models\bin\Debug\ManagementTenis.Models.pdb
+C:\Users\Lenovo\source\repos\Tennis\ManagementTenis.Models\obj\Debug\ManagementFlorarie.Models.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\Tennis\ManagementTenis.Models\obj\Debug\ManagementFlorarie.Models.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Tennis\ManagementTenis.Models\obj\Debug\ManagementTenis.Models.dll
+C:\Users\Lenovo\source\repos\Tennis\ManagementTenis.Models\obj\Debug\ManagementTenis.Models.pdb
+C:\Users\Lenovo\source\repos\ManagementFlorarie\ManagementTenis.Models\obj\Debug\ManagementFlorarie.Models.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\ManagementFlorarie\ManagementTenis.Models\bin\Debug\ManagementFlorarie.Models.dll
+C:\Users\Lenovo\source\repos\ManagementFlorarie\ManagementTenis.Models\bin\Debug\ManagementFlorarie.Models.pdb
+C:\Users\Lenovo\source\repos\ManagementFlorarie\ManagementTenis.Models\obj\Debug\ManagementFlorarie.Models.dll
+C:\Users\Lenovo\source\repos\ManagementFlorarie\ManagementTenis.Models\obj\Debug\ManagementFlorarie.Models.pdb
+C:\Users\Lenovo\source\repos\ManagementFlorarie\ManagementFlorarie.Models\bin\Debug\ManagementFlorarie.Models.dll
+C:\Users\Lenovo\source\repos\ManagementFlorarie\ManagementFlorarie.Models\bin\Debug\ManagementFlorarie.Models.pdb
+C:\Users\Lenovo\source\repos\ManagementFlorarie\ManagementFlorarie.Models\obj\Debug\ManagementFlorarie.Models.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\ManagementFlorarie\ManagementFlorarie.Models\obj\Debug\ManagementFlorarie.Models.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\ManagementFlorarie\ManagementFlorarie.Models\obj\Debug\ManagementFlorarie.Models.dll
+C:\Users\Lenovo\source\repos\ManagementFlorarie\ManagementFlorarie.Models\obj\Debug\ManagementFlorarie.Models.pdb
